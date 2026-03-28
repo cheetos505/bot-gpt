@@ -1,9 +1,1 @@
-{
-    "language": "Thai",
-    "model": "nvidia/nemotron-3-super-120b-a12b:free",
-    "api_key": "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",
-    "allowed_channels": [
-        1487160312187846798
-    ],
-    "webhook_url": "https://discord.com/api/webhooks/1487187277867389050/6Svjmu7Nc978pabHCVNXm_qe00kSsjYO8-RzTcfDdaSjzMCPYlvwB9niDp5lbwTfaM-o"
-}
+
