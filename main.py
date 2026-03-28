@@ -270,4 +270,14 @@ def terminal_menu():
             exit()
 
 if __name__ == "__main__":
-    terminal_menu()
+    # แทนที่จะเรียก terminal_menu() ให้รัน bot เลย
+    import os
+    from dotenv import load_dotenv
+    
+    load_dotenv()
+    token = os.getenv('DISCORD_TOKEN') # ตรวจสอบว่าในหน้า Dashboard > Environment ของ Render ตั้งชื่อนี้ไว้
+    
+    if token:
+        bot.run(token)
+    else:
+        print("Error: No token found in environment variables.")
